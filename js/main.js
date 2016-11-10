@@ -1,5 +1,3 @@
-// NOTE: https://www.sitepoint.com/throttle-scroll-events/
-
 import throttle from 'lodash/throttle';
 
 // Init listening for window scroll event
@@ -8,7 +6,7 @@ window.addEventListener('scroll', expensiveFunction);
 // Listening for checkbox click event
 const checkbox = document.querySelector('.throttle');
 
-checkbox.addEventListener('click', (event) => {
+checkbox.addEventListener('click', event => {
     const
         time = 1000,
         isEnabled = checkbox.checked;

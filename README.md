@@ -1,5 +1,19 @@
 # --- Work in progress ---
 
+When using scroll we sometimes need to code expensive function.
+
+While listening for scroll event, this event will be fired pretty often. Browser will shorty become very slow while rendering content.
+
+We can solve this issue by preventing calling expensive function so many times. `Lodash`'s function `throttle` is very handy.
+
+You can try this use case.
+
+When installing and serving, you will see scrolling is very bad. If you enable throttling scrolling will improve.
+
+In `js/main.js`you can play/change with values:
+- `time`, currently set to 1000 ms (throttle will be called only once in given time)
+- `i`, currently set to 1000 (how many times expensive function will iterate and generate random number)
+
 # Install
 
 `npm install`
