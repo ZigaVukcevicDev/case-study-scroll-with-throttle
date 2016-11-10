@@ -1,6 +1,6 @@
-# --- Work in progress ---
+# Description
 
-When using scroll we sometimes need to code expensive function.
+When using scroll we sometimes need to code an expensive function.
 
 While listening for scroll event, this event will be fired pretty often. Browser will shorty become very slow while rendering content.
 
@@ -8,11 +8,16 @@ We can solve this issue by preventing calling expensive function so many times. 
 
 You can try this use case.
 
-When installing and serving, you will see scrolling is very bad. If you enable throttling scrolling will improve.
+When installing and serving up, you will see scrolling performance is very bad. If you enable throttling, performance will improve.
 
-In `js/main.js`you can play/change with values:
-- `time`, currently set to 1000 ms (throttle will be called only once in given time)
-- `i`, currently set to 1000 (how many times expensive function will iterate and generate random number)
+In `js/main.js` you can play with values:
+a) `time`, currently set to `1000 ms`
+
+Throttle will be called only once in given time.
+
+b) `i`, currently set to `1000`
+
+How many times expensive function will iterate and generate random number.
 
 # Install
 
