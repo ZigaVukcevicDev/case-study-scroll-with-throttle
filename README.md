@@ -1,4 +1,6 @@
-# Description
+# Use case: scroll with throttle
+
+## Description
 
 When using scroll we sometimes need to code an expensive function.
 
@@ -19,17 +21,17 @@ b) `i`, currently set to `1000`
 
 How many times expensive function will iterate and generate random number.
 
-# Install
+## Install
 
 `npm install`
 
-# Run
+## Run
 
 `npm run serve`
 
 Open browser at `http://localhost:8080`
 
-## Resources
+### Resources
 
 - https://lodash.com/docs/4.16.4#throttle
 - https://css-tricks.com/debouncing-throttling-explained-examples/
