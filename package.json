@@ -1,5 +1,5 @@
 {
-  "name": "scroll-throttle",
+  "name": "use-case-scroll-with-throttle",
   "scripts": {
     "serve": "node_modules/.bin/webpack-dev-server"
   },
