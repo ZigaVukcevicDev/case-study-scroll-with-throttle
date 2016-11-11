@@ -1,4 +1,5 @@
-# Use case: scroll with throttle
+#### Use case
+# Scroll with throttle
 
 ## Description
 
