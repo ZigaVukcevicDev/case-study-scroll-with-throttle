@@ -34,4 +34,4 @@ Open browser at `http://localhost:8080`
 - https://lodash.com/docs/4.16.4#throttle
 - http://demo.nimius.net/debounce_throttle/
 - https://css-tricks.com/debouncing-throttling-explained-examples/
-
+- https://gist.github.com/kogovsekmatic/a6d8c9ea6615489132c6b706750e397f
