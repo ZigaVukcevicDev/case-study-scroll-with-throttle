@@ -1,11 +1,11 @@
-#### Use case
+#### Case study
 # Scroll with throttle
 
 ## Description
 
 While listening for scroll event, this event will be fired pretty often. If we have an expensive function which needs to be invoked every time, browser will shorty become very slow while rendering content. We can solve this issue by preventing calling expensive function so many times. In this case `Lodash`'s function `throttle` is very handy.
 
-### Try out this use case.
+### Try out this case study.
 
 By installing and serving up, you will see scrolling performance is very bad. If you enable throttling, performance will improve.
 
